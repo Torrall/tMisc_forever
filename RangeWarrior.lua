@@ -22,7 +22,7 @@ end
 frame:Hide()
 
 local ticker = CreateFrame("Frame")
-local SPELL_ID = 6552
+local SPELL_ID = 6547 --Rend
 local CHARGE_ID = 100
 local UPDATE_INTERVAL = 0.05
 local elapsed = 0

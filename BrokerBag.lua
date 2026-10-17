@@ -11,7 +11,7 @@ bb.BrokerObj = LibStub:GetLibrary("LibDataBroker-1.1"):NewDataObject("tBagOpener
         icon    = "Interface\\ICONS\\INV_Misc_Bag_08",
         OnClick    = function(display, button)
             if IsShiftKeyDown() then
-                BaudBagToggleBank()
+                -- add bank once addon for it is installed
             elseif (button == "LeftButton") then
                 ToggleBag(0)
                 bb.BrokerObj.Update()
